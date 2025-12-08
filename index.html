@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- USER INFO -->
+  <div id="user-info" class="box">
+    <h2>Enter Your Details</h2>
+    <input id="username" type="text" placeholder="Enter Name">
+    <input id="useremail" type="email" placeholder="Enter Email">
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <!-- QUIZ BOX -->
+  <div id="question-box" class="box hide">
+    <h2 id="question"></h2>
+    <ul id="options"></ul>
+
+    <!-- Navigation Buttons -->
+    <div id="nav-buttons">
+      <button id="prev-btn">Previous</button>
+      <button id="next-btn">Next</button>
+      <button id="submit-btn" class="hide">Submit</button>
+    </div>
+  </div>
+
+  <!-- SUBMITTED MESSAGE -->
+  <div id="submitted-box" class="box hide">
+    <h2>Submitted Successfully!</h2>
+    <p>Your quiz responses have been recorded.</p>
+    <button id="view-score-btn">View Score</button>
+  </div>
+
+  <!-- RESULT BOX -->
+  <div id="result" class="box hide">
+    <h2>Your Score</h2>
+    <h3 id="score"></h3>
+
+    <h3>Detailed Answers</h3>
+    <ul id="answers-list"></ul>
+
+    <button id="restart-btn">Restart Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
