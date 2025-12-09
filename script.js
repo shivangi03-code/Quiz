@@ -1,15 +1,15 @@
 // Programming Quiz Questions
 const quizQuestions = [
 
-  { 
+   { 
     question: "Which language is used to style web pages?", 
-    options: ["Python", "CSS", "C", "SQL"], 
+    options: ["C", "Python", "CSS", "SQL"], 
     answer: "CSS" 
   },
 
   { 
     question: "Which programming language runs in the browser?", 
-    options: ["Python", "PHP", "JavaScript", "C++"], 
+    options: ["C++", "PHP", "Python", "JavaScript"], 
     answer: "JavaScript" 
   },
 
@@ -22,40 +22,40 @@ const quizQuestions = [
 
   { 
     question: "What does CSS stand for?", 
-    options: ["Computer Style System", "Colorful Style Sheets", "Cascading Style Sheets", "Creative Style Syntax"], 
+    options: ["Colorful Style Sheets", "Cascading Style Sheets", "Computer Style System", "Creative Style Syntax"], 
     answer: "Cascading Style Sheets" 
   },
 
 
   { 
     question: "Which of these is NOT a programming language?", 
-    options: ["C#", "Python", "Java", "HTML"], 
+    options: ["HTML", "Python", "Java", "C#"], 
     answer: "HTML" 
   },
 
   { 
     question: "What is used to store multiple values in one variable?", 
-    options: ["Array", "String", "Boolean", "Function"], 
+    options: ["Function", "String", "Boolean", "Array"], 
     answer: "Array" 
   },
 
   { 
     question: "Which function prints output in the browser console?", 
-    options: ["print()", "console.log()", "log.console()", "output()"], 
+    options: ["output()", "print()", "log.console()", "console.log()"], 
     answer: "console.log()" 
   },
 
 
   { 
     question: "What is the correct file extension for JavaScript?", 
-    options: [".jss", ".java", ".script", ".js"], 
+    options: [".js", ".java", ".script", ".jss"], 
     answer: ".js" 
   },
 
 
   { 
     question: "Which HTML attribute specifies a link URL?", 
-    options: ["ref","href", "link", "src"], 
+    options: [ "src", "href","ref", "link"], 
     answer: "href" 
   },
 
@@ -218,4 +218,5 @@ restartButton.addEventListener("click", () => {
   usernameInput.value = "";
   useremailInput.value = "";
 });
+
 
