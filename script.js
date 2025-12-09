@@ -3,13 +3,13 @@ const quizQuestions = [
 
   { 
     question: "Which language is used to style web pages?", 
-    options: ["CSS", "Python", "C", "SQL"], 
+    options: ["Python", "CSS", "C", "SQL"], 
     answer: "CSS" 
   },
 
   { 
     question: "Which programming language runs in the browser?", 
-    options: ["JavaScript", "PHP", "Python", "C++"], 
+    options: ["Python", "PHP", "JavaScript", "C++"], 
     answer: "JavaScript" 
   },
 
@@ -22,14 +22,14 @@ const quizQuestions = [
 
   { 
     question: "What does CSS stand for?", 
-    options: ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style System", "Creative Style Syntax"], 
+    options: ["Computer Style System", "Colorful Style Sheets", "Cascading Style Sheets", "Creative Style Syntax"], 
     answer: "Cascading Style Sheets" 
   },
 
 
   { 
     question: "Which of these is NOT a programming language?", 
-    options: ["HTML", "Python", "Java", "C#"], 
+    options: ["C#", "Python", "Java", "HTML"], 
     answer: "HTML" 
   },
 
@@ -41,21 +41,21 @@ const quizQuestions = [
 
   { 
     question: "Which function prints output in the browser console?", 
-    options: ["console.log()", "print()", "log.console()", "output()"], 
+    options: ["print()", "console.log()", "log.console()", "output()"], 
     answer: "console.log()" 
   },
 
 
   { 
     question: "What is the correct file extension for JavaScript?", 
-    options: [".js", ".java", ".script", ".jss"], 
+    options: [".jss", ".java", ".script", ".js"], 
     answer: ".js" 
   },
 
 
   { 
     question: "Which HTML attribute specifies a link URL?", 
-    options: ["href", "src", "link", "ref"], 
+    options: ["ref","href", "link", "src"], 
     answer: "href" 
   },
 
@@ -218,3 +218,4 @@ restartButton.addEventListener("click", () => {
   usernameInput.value = "";
   useremailInput.value = "";
 });
+
